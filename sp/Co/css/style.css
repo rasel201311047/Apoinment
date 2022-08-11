@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c_sect_class{
+    box-shadow: -5px 2px 5px #d6d3d3;
+    height: 100px;
+    background-color: green;
+}
+.c_sect_class .A{
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.c_sect_class .A .naviga{
+    text-align: right;
+
+}
+.c_sect_class .A .B h1{
+    font-size: 40px;
+    padding: 0px;
+    font-family: Brush Script MT,Cursive;
+    color: #6d0c21;
+}
+.c_sect_class .A .B{
+    display: flex;
+    align-items: center;
+}
+.c_sect_class .A .B img{
+    max-width: 80px;
+    max-height: 80px;
+}
+.c_sect_class .A .naviga{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.c_sect_class .A .naviga .D{
+    margin-right: 40px;
+}
+.c_sect_class .A .naviga a{
+    font-size: 20px;
+    padding: 10px;
+    font-family: Times New Roman,Serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+     
+}
+.c_sect_class .A .naviga a:hover{
+    color: #CE1139;
+}
+/* hd */
+.search .A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search .A input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(73, 72, 72);
+    outline: none;
+}
+#search{
+    background-color: green;
+    border: none;
+    color: white;
+}
+#search:hover{
+    border: 1px solid rgb(4, 34, 4);
+    background-color: rgb(4, 63, 4);
+}
+
+/* 2nd */
+.dc {
+    margin-top: 0;
+
+}
+
+.dc .A{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.dc .A .B{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dc .A .C{
+    box-shadow: inset 0px 0px 10px 5px rgb(231 239 245);
+    width: 250px;
+    margin: 10px;
+}
+.dc .A .B .C .D{
+    margin-top: 20px;
+    text-align: center;
+}
+.dc .A .B .C .E{
+    margin: 10px;
+}
+.dc .A .B .C .E p{
+    line-height: 20px;
+    font-weight: bold;
+    color: rgb(92, 91, 91);
+    text-transform: capitalize;
+}
+.dc .A .B .C .E h4{
+    font-size: 20px;
+    color: green;
+}
+#ssm{
+    color: green;
+    font-weight: bold;
+}
+
+.dc .A .B .C img{
+    width: 150px;
+    height: 150px;  
+}
+.dc .A .B .C .E .lin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: green;
+}
+.dc .A .B .C .E .lin a{
+    color: green;
+
+}
+.dc .A .B .C .E .lin a:hover{
+    color: red;
+
+}
+
+
+/* 3rd */
+.moushi{
+    margin-top: 20px;
+    background-color: green;
+    height: 205px;
+  }
+  .moushi .AA{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .moushi .AA .A{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .moushi .AA .A img{
+    border: 3px solid white;
+    border-radius: 100%;
+    max-width: 100px;
+    max-height: 100px;
+
+  }
+  .moushi .AA .A h3{
+    font-family: Lucida Handwriting,Cursive;
+    font-size: 20px;
+    color: white;
+  }
+  .moushi .AA .A p{
+    font-size: 16px;
+    color: white;
+  }
+  .moushi .AA .B a{
+    text-decoration: none;
+    color: rgb(54, 11, 59);
+    padding: 5px;
+
+  }
+  .moushi .AA .B a:hover{
+    font-size: 20px;
+  }
